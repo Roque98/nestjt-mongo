@@ -15,7 +15,7 @@ import { CreateBrandDto, UpdateBrandDto } from '../dtos/brand.dtos';
 
 @ApiTags('brands')
 @Controller('brands')
-export class BrandsController {
+export class BrandsController { 
   constructor(private brandsService: BrandsService) {}
 
   @Get()
